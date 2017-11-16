@@ -164,8 +164,7 @@ class Day extends Component {
         leftFillerStyle = { backgroundColor: "transparent", };
         rightFillerStyle = { backgroundColor: "transparent", };
         // #177 bug
-        fillerStyle = { backgroundColor: "rgb(247,250,252)", borderColor: flags.day.color, borderWidth: 2 };
-        containerStyle.push({ borderColor: flags.day.color, borderWidth: 2 })
+        fillerStyle = { backgroundColor: "rgb(247,250,252)", borderColor: flags.day.color, borderWidth: 1 };
         textStyle.push({ fontWeight: "bold" })
       } else if (flags.endingDay && flags.startingDay) {
         rightFillerStyle = {
