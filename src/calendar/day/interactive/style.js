@@ -53,7 +53,8 @@ export default function styleConstructor(theme={}) {
     },
     counttext: {
       marginRight: size.margin_l_r_date(10),
-      marginBottom:size.margin_t_b_date(10),
+      marginBottom:size.margin_t_b_date(5),
+      marginTop:size.margin_t_date(0),
       fontSize: size.font(12),
       fontFamily: appStyle.textDayFontFamily,
       color: appStyle.dayTextColor || '#2d4150',

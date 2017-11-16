@@ -50,3 +50,11 @@ exports.component_width_calendar = (width) => {
         return width 
     }
 }
+exports.margin_t_date = (height) => {
+    if (Device.isTablet) {
+        return height + 30
+    }
+    else{
+        return height 
+    }
+}
