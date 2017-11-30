@@ -23,7 +23,7 @@ export default function styleConstructor(theme={}) {
     },
     base: {
       //borderWidth: 1,
-      width: size.component_width_calendar(70),
+      width: size.component_width_calendar(40),
       height: FILLER_HEIGHT,
       alignItems: 'center',
     },
