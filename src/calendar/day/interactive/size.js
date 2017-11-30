@@ -44,7 +44,7 @@ exports.component_height_calendar = (height) => {
 }
 exports.component_width_calendar = (width) => {
     if (Device.isTablet) {
-        return width + 30
+        return width + 60
     }
     else{
         return width 
